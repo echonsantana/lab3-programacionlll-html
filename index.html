@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>102 Etiquetas HTML</title>
+</head>
+<body>
+  <h1>Listado de 102 Etiquetas HTML</h1>
+
+  <table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Etiqueta</th>
+        <th>Descripción</th>
+        <th>Ejemplo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>&lt;a&gt;</td><td>Crea un hipervínculo a otra página o recurso.</td><td>&lt;a href=&quot;https://ejemplo.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Visitar sitio&lt;/a&gt;</td></tr>
+      <tr><td>2</td><td>&lt;abbr&gt;</td><td>Define una abreviatura o acrónimo con su expansión.</td><td>&lt;abbr title=&quot;Organización de las Naciones Unidas&quot;&gt;ONU&lt;/abbr&gt;</td></tr>
+      <tr><td>3</td><td>&lt;address&gt;</td><td>Información de contacto del autor o propietario.</td><td>&lt;address&gt;Escrito por &lt;a href='mailto:autora@ejemplo.com'&gt;Autora&lt;/a&gt;&lt;br&gt;Ciudad, País&lt;/address&gt;</td></tr>
+      <tr><td>4</td><td>&lt;area&gt;</td><td>Define un área clicable en un mapa de imagen.</td><td>&lt;area shape=&quot;rect&quot; coords=&quot;10,10,100,100&quot; href=&quot;/sala&quot; alt=&quot;Sala&quot;&gt;</td></tr>
+      <tr><td>5</td><td>&lt;article&gt;</td><td>Contenido independiente (artículo, post, comentario).</td><td>&lt;article&gt;&lt;h2&gt;Título&lt;/h2&gt;&lt;p&gt;Contenido...&lt;/p&gt;&lt;/article&gt;</td></tr>
+      <tr><td>6</td><td>&lt;aside&gt;</td><td>Contenido tangencial o complementario (barra lateral).</td><td>&lt;aside&gt;Enlaces relacionados&lt;/aside&gt;</td></tr>
+      <tr><td>7</td><td>&lt;audio&gt;</td><td>Incorpora audio con controles.</td><td>&lt;audio controls src=&quot;pista.mp3&quot;&gt;Tu navegador no soporta audio.&lt;/audio&gt;</td></tr>
+      <tr><td>8</td><td>&lt;b&gt;</td><td>Resalta texto sin importancia semántica.</td><td>&lt;p&gt;Texto &lt;b&gt;resaltado&lt;/b&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>9</td><td>&lt;base&gt;</td><td>Establece URL base para enlaces/recursos relativos.</td><td>&lt;base href=&quot;https://sitio.ejemplo/&quot; target=&quot;_blank&quot;&gt;</td></tr>
+      <tr><td>10</td><td>&lt;bdi&gt;</td><td>Aísla la dirección de texto incrustado.</td><td>&lt;p&gt;Usuario: &lt;bdi&gt;اسم&lt;/bdi&gt; ganó 3 premios.&lt;/p&gt;</td></tr>
+      <tr><td>11</td><td>&lt;bdo&gt;</td><td>Fuerza la dirección del texto (LTR o RTL).</td><td>&lt;bdo dir=&quot;rtl&quot;&gt;Texto invertido&lt;/bdo&gt;</td></tr>
+      <tr><td>12</td><td>&lt;blockquote&gt;</td><td>Cita en bloque proveniente de otra fuente.</td><td>&lt;blockquote cite=&quot;https://fuente.ejemplo&quot;&gt;Texto citado...&lt;/blockquote&gt;</td></tr>
+      <tr><td>13</td><td>&lt;body&gt;</td><td>Contenedor del contenido visible del documento.</td><td>&lt;body&gt;Contenido visible&lt;/body&gt;</td></tr>
+      <tr><td>14</td><td>&lt;br&gt;</td><td>Inserta un salto de línea.</td><td>Línea 1&lt;br&gt;Línea 2</td></tr>
+      <tr><td>15</td><td>&lt;button&gt;</td><td>Botón clicable.</td><td>&lt;button type=&quot;button&quot;&gt;Click&lt;/button&gt;</td></tr>
+      <tr><td>16</td><td>&lt;canvas&gt;</td><td>Superficie para gráficos (controlado por JS).</td><td>&lt;canvas id=&quot;graf&quot; width=&quot;300&quot; height=&quot;150&quot;&gt;&lt;/canvas&gt;</td></tr>
+      <tr><td>17</td><td>&lt;caption&gt;</td><td>Título o leyenda de una tabla.</td><td>&lt;table&gt;&lt;caption&gt;Resultados 2025&lt;/caption&gt;...&lt;/table&gt;</td></tr>
+      <tr><td>18</td><td>&lt;cite&gt;</td><td>Referencia a un trabajo creativo.</td><td>&lt;p&gt;Leí &lt;cite&gt;El Quijote&lt;/cite&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>19</td><td>&lt;code&gt;</td><td>Fragmento de código en línea.</td><td>&lt;p&gt;Usa &lt;code&gt;&amp;lt;section&amp;gt;&lt;/code&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>20</td><td>&lt;col&gt;</td><td>Define propiedades para una columna de tabla.</td><td>&lt;col span=&quot;2&quot; style=&quot;background:#f9f9f9&quot;&gt;</td></tr>
+      <tr><td>21</td><td>&lt;colgroup&gt;</td><td>Agrupa columnas en una tabla.</td><td>&lt;colgroup&gt;&lt;col span=&quot;1&quot;&gt;&lt;col span=&quot;2&quot;&gt;&lt;/colgroup&gt;</td></tr>
+      <tr><td>22</td><td>&lt;datalist&gt;</td><td>Opciones sugeridas para un &lt;input&gt;.</td><td>&lt;input list=&quot;lenguajes&quot;&gt;&lt;datalist id=&quot;lenguajes&quot;&gt;&lt;option value=&quot;HTML&quot;&gt;&lt;/datalist&gt;</td></tr>
+      <tr><td>23</td><td>&lt;dd&gt;</td><td>Descripción de un término en una lista de definiciones.</td><td>&lt;dl&gt;&lt;dt&gt;HTML&lt;/dt&gt;&lt;dd&gt;Lenguaje de marcado.&lt;/dd&gt;&lt;/dl&gt;</td></tr>
+      <tr><td>24</td><td>&lt;del&gt;</td><td>Texto eliminado o modificado.</td><td>&lt;p&gt;Precio: &lt;del&gt;$50&lt;/del&gt; $39&lt;/p&gt;</td></tr>
+      <tr><td>25</td><td>&lt;details&gt;</td><td>Sección expandible/colapsable.</td><td>&lt;details&gt;&lt;summary&gt;Ver más&lt;/summary&gt;&lt;p&gt;Contenido oculto&lt;/p&gt;&lt;/details&gt;</td></tr>
+      <tr><td>26</td><td>&lt;dfn&gt;</td><td>Marca la instancia donde se define un término.</td><td>&lt;p&gt;&lt;dfn&gt;API&lt;/dfn&gt;: interfaz para programar aplicaciones.&lt;/p&gt;</td></tr>
+      <tr><td>27</td><td>&lt;dialog&gt;</td><td>Cuadro de diálogo/modal nativo.</td><td>&lt;dialog id=&quot;d&quot;&gt;&lt;p&gt;Hola&lt;/p&gt;&lt;/dialog&gt;</td></tr>
+      <tr><td>28</td><td>&lt;div&gt;</td><td>Contenedor genérico sin semántica.</td><td>&lt;div class=&quot;tarjeta&quot;&gt;Contenido&lt;/div&gt;</td></tr>
+      <tr><td>29</td><td>&lt;dl&gt;</td><td>Lista de definiciones (términos y descripciones).</td><td>&lt;dl&gt;&lt;dt&gt;Término&lt;/dt&gt;&lt;dd&gt;Definición&lt;/dd&gt;&lt;/dl&gt;</td></tr>
+      <tr><td>30</td><td>&lt;dt&gt;</td><td>Término dentro de una lista de definiciones.</td><td>&lt;dl&gt;&lt;dt&gt;CPU&lt;/dt&gt;&lt;dd&gt;Unidad central...&lt;/dd&gt;&lt;/dl&gt;</td></tr>
+      <tr><td>31</td><td>&lt;em&gt;</td><td>Énfasis semántico (generalmente cursiva).</td><td>&lt;p&gt;Esto es &lt;em&gt;importante&lt;/em&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>32</td><td>&lt;embed&gt;</td><td>Inserta contenido externo (multimedia/documentos).</td><td>&lt;embed src=&quot;reporte.pdf&quot; type=&quot;application/pdf&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;</td></tr>
+      <tr><td>33</td><td>&lt;fieldset&gt;</td><td>Agrupa controles y etiquetas en un formulario.</td><td>&lt;fieldset&gt;&lt;legend&gt;Datos&lt;/legend&gt;&lt;input&gt;&lt;/fieldset&gt;</td></tr>
+      <tr><td>34</td><td>&lt;figcaption&gt;</td><td>Pie de figura o leyenda asociada a &lt;figure&gt;.</td><td>&lt;figure&gt;...&lt;figcaption&gt;Descripción&lt;/figcaption&gt;&lt;/figure&gt;</td></tr>
+      <tr><td>35</td><td>&lt;figure&gt;</td><td>Contenido ilustrativo independiente.</td><td>&lt;figure&gt;&lt;img src=&quot;foto.jpg&quot; alt=&quot;Paisaje&quot;&gt;&lt;/figure&gt;</td></tr>
+      <tr><td>36</td><td>&lt;footer&gt;</td><td>Pie de página de un documento o sección.</td><td>&lt;footer&gt;&amp;copy; 2025 Mi Sitio&lt;/footer&gt;</td></tr>
+      <tr><td>37</td><td>&lt;form&gt;</td><td>Formulario para enviar datos.</td><td>&lt;form action=&quot;/buscar&quot; method=&quot;get&quot;&gt;&lt;input name=&quot;q&quot;&gt;&lt;button&gt;Buscar&lt;/button&gt;&lt;/form&gt;</td></tr>
+      <tr><td>38</td><td>&lt;h1&gt;</td><td>Encabezado de primer nivel.</td><td>&lt;h1&gt;Título principal&lt;/h1&gt;</td></tr>
+      <tr><td>39</td><td>&lt;h2&gt;</td><td>Encabezado de segundo nivel.</td><td>&lt;h2&gt;Sección&lt;/h2&gt;</td></tr>
+      <tr><td>40</td><td>&lt;h3&gt;</td><td>Encabezado de tercer nivel.</td><td>&lt;h3&gt;Subsección&lt;/h3&gt;</td></tr>
+      <tr><td>41</td><td>&lt;h4&gt;</td><td>Encabezado de cuarto nivel.</td><td>&lt;h4&gt;Encabezado&lt;/h4&gt;</td></tr>
+      <tr><td>42</td><td>&lt;h5&gt;</td><td>Encabezado de quinto nivel.</td><td>&lt;h5&gt;Encabezado&lt;/h5&gt;</td></tr>
+      <tr><td>43</td><td>&lt;h6&gt;</td><td>Encabezado de sexto nivel.</td><td>&lt;h6&gt;Encabezado&lt;/h6&gt;</td></tr>
+      <tr><td>44</td><td>&lt;head&gt;</td><td>Cabecera del documento (metadatos).</td><td>&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;title&gt;Mi página&lt;/title&gt;&lt;/head&gt;</td></tr>
+      <tr><td>45</td><td>&lt;header&gt;</td><td>Encabezado de una página o sección.</td><td>&lt;header&gt;&lt;h1&gt;Mi sitio&lt;/h1&gt;&lt;/header&gt;</td></tr>
+      <tr><td>46</td><td>&lt;hr&gt;</td><td>Separador temático (línea horizontal).</td><td>&lt;p&gt;Parte 1&lt;/p&gt;&lt;hr&gt;&lt;p&gt;Parte 2&lt;/p&gt;</td></tr>
+      <tr><td>47</td><td>&lt;html&gt;</td><td>Elemento raíz del documento.</td><td>&lt;html lang=&quot;es&quot;&gt;...&lt;/html&gt;</td></tr>
+      <tr><td>48</td><td>&lt;i&gt;</td><td>Estilo alternativo (términos, pensamientos).</td><td>&lt;p&gt;Palabra &lt;i&gt;café&lt;/i&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>49</td><td>&lt;iframe&gt;</td><td>Incrusta otra página HTML.</td><td>&lt;iframe src=&quot;https://ejemplo.com&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;</td></tr>
+      <tr><td>50</td><td>&lt;img&gt;</td><td>Inserta una imagen.</td><td>&lt;img src=&quot;foto.jpg&quot; alt=&quot;Descripción&quot; width=&quot;320&quot;&gt;</td></tr>
+      <tr><td>51</td><td>&lt;input&gt;</td><td>Campo de entrada de datos.</td><td>&lt;input type=&quot;email&quot; name=&quot;correo&quot; required&gt;</td></tr>
+      <tr><td>52</td><td>&lt;ins&gt;</td><td>Texto insertado (edición).</td><td>&lt;p&gt;Se agregó &lt;ins&gt;esta frase&lt;/ins&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>53</td><td>&lt;kbd&gt;</td><td>Entrada de teclado del usuario.</td><td>&lt;p&gt;Presiona &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>54</td><td>&lt;label&gt;</td><td>Etiqueta para un control de formulario.</td><td>&lt;label for=&quot;q&quot;&gt;Buscar&lt;/label&gt; &lt;input id=&quot;q&quot;&gt;</td></tr>
+      <tr><td>55</td><td>&lt;legend&gt;</td><td>Leyenda de un &lt;fieldset&gt;.</td><td>&lt;fieldset&gt;&lt;legend&gt;Datos personales&lt;/legend&gt;...&lt;/fieldset&gt;</td></tr>
+      <tr><td>56</td><td>&lt;li&gt;</td><td>Elemento de una lista.</td><td>&lt;ul&gt;&lt;li&gt;Uno&lt;/li&gt;&lt;li&gt;Dos&lt;/li&gt;&lt;/ul&gt;</td></tr>
+      <tr><td>57</td><td>&lt;link&gt;</td><td>Vincula recursos externos (p. ej. CSS).</td><td>&lt;link rel=&quot;stylesheet&quot; href=&quot;estilos.css&quot;&gt;</td></tr>
+      <tr><td>58</td><td>&lt;main&gt;</td><td>Contenido principal único de la página.</td><td>&lt;main&gt;&lt;h1&gt;Título&lt;/h1&gt;&lt;/main&gt;</td></tr>
+      <tr><td>59</td><td>&lt;map&gt;</td><td>Define un mapa de imagen.</td><td>&lt;map name=&quot;m&quot;&gt;&lt;area shape=&quot;circle&quot; coords=&quot;50,50,20&quot; href=&quot;/zona&quot;&gt;&lt;/map&gt;</td></tr>
+      <tr><td>60</td><td>&lt;mark&gt;</td><td>Resalta texto marcado.</td><td>&lt;p&gt;Resultado: &lt;mark&gt;coincidencia&lt;/mark&gt;&lt;/p&gt;</td></tr>
+      <tr><td>61</td><td>&lt;meta&gt;</td><td>Metadatos del documento.</td><td>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</td></tr>
+      <tr><td>62</td><td>&lt;meter&gt;</td><td>Representa una medida dentro de un rango.</td><td>&lt;meter min=&quot;0&quot; max=&quot;100&quot; value=&quot;65&quot;&gt;65%&lt;/meter&gt;</td></tr>
+      <tr><td>63</td><td>&lt;nav&gt;</td><td>Sección de navegación.</td><td>&lt;nav&gt;&lt;a href=&quot;/&quot;&gt;Inicio&lt;/a&gt; | &lt;a href=&quot;/acerca&quot;&gt;Acerca&lt;/a&gt;&lt;/nav&gt;</td></tr>
+      <tr><td>64</td><td>&lt;object&gt;</td><td>Incorpora recursos externos con fallback.</td><td>&lt;object data=&quot;animacion.svg&quot; type=&quot;image/svg+xml&quot;&gt;No soportado&lt;/object&gt;</td></tr>
+      <tr><td>65</td><td>&lt;ol&gt;</td><td>Lista ordenada (numerada).</td><td>&lt;ol&gt;&lt;li&gt;Primero&lt;/li&gt;&lt;li&gt;Segundo&lt;/li&gt;&lt;/ol&gt;</td></tr>
+      <tr><td>66</td><td>&lt;option&gt;</td><td>Opción dentro de &lt;select&gt; o &lt;datalist&gt;.</td><td>&lt;select&gt;&lt;option value=&quot;es&quot; selected&gt;Español&lt;/option&gt;&lt;/select&gt;</td></tr>
+      <tr><td>67</td><td>&lt;output&gt;</td><td>Resultado de un cálculo o acción.</td><td>&lt;form oninput=&quot;res.value=parseInt(a.value)+parseInt(b.value)&quot;&gt;&lt;input name=&quot;a&quot; value=&quot;1&quot;&gt;+&lt;input name=&quot;b&quot; value=&quot;2&quot;&gt;=&lt;output name=&quot;res&quot;&gt;&lt;/output&gt;&lt;/form&gt;</td></tr>
+      <tr><td>68</td><td>&lt;p&gt;</td><td>Párrafo de texto.</td><td>&lt;p&gt;Este es un párrafo.&lt;/p&gt;</td></tr>
+      <tr><td>69</td><td>&lt;picture&gt;</td><td>Imagen adaptable según tipo/condición.</td><td>&lt;picture&gt;&lt;source srcset=&quot;img.webp&quot; type=&quot;image/webp&quot;&gt;&lt;img src=&quot;img.jpg&quot; alt=&quot;Ejemplo&quot;&gt;&lt;/picture&gt;</td></tr>
+      <tr><td>70</td><td>&lt;pre&gt;</td><td>Texto preformateado (respeta espacios/lineas).</td><td>&lt;pre&gt;  línea 1&amp;#10;    línea 2&lt;/pre&gt;</td></tr>
+      <tr><td>71</td><td>&lt;progress&gt;</td><td>Muestra el progreso de una tarea.</td><td>&lt;progress value=&quot;70&quot; max=&quot;100&quot;&gt;70%&lt;/progress&gt;</td></tr>
+      <tr><td>72</td><td>&lt;q&gt;</td><td>Cita breve en línea (con comillas automáticas).</td><td>&lt;p&gt;Ella dijo: &lt;q&gt;hola&lt;/q&gt;.&lt;/p&gt;</td></tr>
+      <tr><td>73</td><td>&lt;ruby&gt;</td><td>Anotaciones para caracteres (CJK).</td><td>&lt;ruby&gt;漢&lt;rt&gt;hàn&lt;/rt&gt;&lt;/ruby&gt;</td></tr>
+      <tr><td>74</td><td>&lt;samp&gt;</td><td>Salida de un programa o sistema.</td><td>&lt;p&gt;Salida: &lt;samp&gt;OK&lt;/samp&gt;&lt;/p&gt;</td></tr>
+      <tr><td>75</td><td>&lt;script&gt;</td><td>Inserta o vincula JavaScript.</td><td>&lt;script defer src=&quot;app.js&quot;&gt;&lt;/script&gt;</td></tr>
+      <tr><td>76</td><td>&lt;section&gt;</td><td>Sección temática con encabezado propio.</td><td>&lt;section&gt;&lt;h2&gt;Servicios&lt;/h2&gt;&lt;p&gt;...&lt;/p&gt;&lt;/section&gt;</td></tr>
+      <tr><td>77</td><td>&lt;select&gt;</td><td>Lista desplegable de opciones.</td><td>&lt;select name=&quot;pais&quot;&gt;&lt;option&gt;RD&lt;/option&gt;&lt;option&gt;MX&lt;/option&gt;&lt;/select&gt;</td></tr>
+      <tr><td>78</td><td>&lt;small&gt;</td><td>Texto de menor prominencia (notas).</td><td>&lt;small&gt;Términos y condiciones aplican.&lt;/small&gt;</td></tr>
+      <tr><td>79</td><td>&lt;source&gt;</td><td>Fuente alternativa para audio/video/picture.</td><td>&lt;video controls&gt;&lt;source src=&quot;clip.webm&quot; type=&quot;video/webm&quot;&gt;&lt;/video&gt;</td></tr>
+      <tr><td>80</td><td>&lt;span&gt;</td><td>Contenedor en línea genérico.</td><td>&lt;span class=&quot;resaltado&quot;&gt;text&lt;/span&gt;</td></tr>
+      <tr><td>81</td><td>&lt;strong&gt;</td><td>Fuerte importancia (semántico).</td><td>&lt;p&gt;&lt;strong&gt;Advertencia:&lt;/strong&gt; acción irreversible.&lt;/p&gt;</td></tr>
+      <tr><td>82</td><td>&lt;style&gt;</td><td>Define estilos internos (CSS).</td><td>&lt;style&gt;body{font-family:system-ui}&lt;/style&gt;</td></tr>
+      <tr><td>83</td><td>&lt;sub&gt;</td><td>Texto en subíndice.</td><td>H&lt;sub&gt;2&lt;/sub&gt;O</td></tr>
+      <tr><td>84</td><td>&lt;summary&gt;</td><td>Resumen/título de un &lt;details&gt;.</td><td>&lt;details&gt;&lt;summary&gt;Ver más&lt;/summary&gt;...&lt;/details&gt;</td></tr>
+      <tr><td>85</td><td>&lt;sup&gt;</td><td>Texto en superíndice.</td><td>x&lt;sup&gt;2&lt;/sup&gt;</td></tr>
+      <tr><td>86</td><td>&lt;table&gt;</td><td>Contenedor de datos tabulares.</td><td>&lt;table&gt;&lt;thead&gt;...&lt;/thead&gt;&lt;tbody&gt;...&lt;/tbody&gt;&lt;/table&gt;</td></tr>
+      <tr><td>87</td><td>&lt;tbody&gt;</td><td>Grupo de filas del cuerpo de una tabla.</td><td>&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</td></tr>
+      <tr><td>88</td><td>&lt;td&gt;</td><td>Celda de datos en una tabla.</td><td>&lt;tr&gt;&lt;td&gt;Celda&lt;/td&gt;&lt;td&gt;Otra&lt;/td&gt;&lt;/tr&gt;</td></tr>
+      <tr><td>89</td><td>&lt;template&gt;</td><td>Plantilla no renderizada hasta activarla por JS.</td><td>&lt;template id=&quot;tpl&quot;&gt;&lt;li class=&quot;item&quot;&gt;&lt;/li&gt;&lt;/template&gt;</td></tr>
+      <tr><td>90</td><td>&lt;textarea&gt;</td><td>Área de texto multilínea.</td><td>&lt;textarea rows=&quot;4&quot; cols=&quot;30&quot; placeholder=&quot;Escribe...&quot;&gt;&lt;/textarea&gt;</td></tr>
+      <tr><td>91</td><td>&lt;tfoot&gt;</td><td>Grupo de filas del pie de tabla.</td><td>&lt;table&gt;&lt;tfoot&gt;&lt;tr&gt;&lt;td&gt;Total&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;&lt;/table&gt;</td></tr>
+      <tr><td>92</td><td>&lt;th&gt;</td><td>Celda de encabezado de tabla.</td><td>&lt;tr&gt;&lt;th scope=&quot;col&quot;&gt;Mes&lt;/th&gt;&lt;th scope=&quot;col&quot;&gt;Total&lt;/th&gt;&lt;/tr&gt;</td></tr>
+      <tr><td>93</td><td>&lt;thead&gt;</td><td>Grupo de filas de encabezado de tabla.</td><td>&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Título&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;/table&gt;</td></tr>
+      <tr><td>94</td><td>&lt;time&gt;</td><td>Fecha/hora legible por máquina (ISO 8601).</td><td>&lt;time datetime=&quot;2025-09-16&quot;&gt;16 de septiembre de 2025&lt;/time&gt;</td></tr>
+      <tr><td>95</td><td>&lt;title&gt;</td><td>Título del documento (pestaña del navegador).</td><td>&lt;title&gt;Mi página&lt;/title&gt;</td></tr>
+      <tr><td>96</td><td>&lt;tr&gt;</td><td>Fila de una tabla.</td><td>&lt;tr&gt;&lt;td&gt;A&lt;/td&gt;&lt;td&gt;B&lt;/td&gt;&lt;/tr&gt;</td></tr>
+      <tr><td>97</td><td>&lt;track&gt;</td><td>Pistas de texto para &lt;video&gt;/&lt;audio&gt; (subtítulos).</td><td>&lt;track kind=&quot;subtitles&quot; src=&quot;subs.vtt&quot; srclang=&quot;es&quot; label=&quot;Español&quot;&gt;</td></tr>
+      <tr><td>98</td><td>&lt;u&gt;</td><td>Texto con subrayado (no semántico).</td><td>&lt;p&gt;&lt;u&gt;Texto subrayado&lt;/u&gt;&lt;/p&gt;</td></tr>
+      <tr><td>99</td><td>&lt;ul&gt;</td><td>Lista desordenada (viñetas).</td><td>&lt;ul&gt;&lt;li&gt;Uno&lt;/li&gt;&lt;li&gt;Dos&lt;/li&gt;&lt;/ul&gt;</td></tr>
+      <tr><td>100</td><td>&lt;var&gt;</td><td>Representa una variable o parámetro.</td><td>Área = &lt;var&gt;π&lt;/var&gt; r&lt;sup&gt;2&lt;/sup&gt;</td></tr>
+      <tr><td>101</td><td>&lt;video&gt;</td><td>Incorpora video con controles.</td><td>&lt;video controls width=&quot;480&quot;&gt;&lt;source src=&quot;clip.mp4&quot; type=&quot;video/mp4&quot;&gt;&lt;/video&gt;</td></tr>
+      <tr><td>102</td><td>&lt;wbr&gt;</td><td>Oportunidad de salto de palabra.</td><td>antidisestablishmentarianism&lt;wbr&gt;ismo</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
